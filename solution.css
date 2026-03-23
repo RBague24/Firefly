@@ -138,6 +138,8 @@ animation-name: moveInLeft;
 .btn:active{
   transform: translateY(-1px);
 }
+
+
 @keyframes moveInLeft{
   0% {
     opacity: 0;
@@ -167,27 +169,37 @@ animation-name: moveInLeft;
 @keyframes moveInRight{
   0% {
     opacity: 0;
-    transform: translateX(100px);
-    transform: translateY(-10px)
+    transform: translate(100px, -2px);
+
 
   }
 
   25% {
-    transform: translateY(10px);
+    transform: translate(75px, 20px);
+
+
   }
 
   50% {
-    transform: translateY(-10px)
+    transform: translate(50px, -20px);
+
+
   }
 
   75% {
-    transform: translateY(10px)
+
+    transform: translate(25px, 20px);
+
 
   }
 
   100% {
     opacity: 1;
-    transform:translate(0)
+    transform: translate(0px, 0px);
+    
   }
+
+  
+
 }
 
