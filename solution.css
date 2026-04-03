@@ -139,6 +139,10 @@ animation-name: moveInLeft;
   transform: translateY(-1px);
 }
 
+.aesthetic:hover{
+  transform: translateY(-3px);
+}
+
 
 @keyframes moveInLeft{
   0% {
